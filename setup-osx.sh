@@ -43,6 +43,10 @@ sudo rm -rf "/Applications/Microsoft Outlook.app"
 echo "\033[0;31m-- Installing Developement Apps\033[0m"
 brew cask install phpstorm webstorm pycharm rubymine sourcetree
 
+echo "\033[0;31m-- Installing VM Apps\033[0m"
+brew cask install parallels-desktop vagrant docker
+vagrant plugin install vagrant-parallels
+
 echo "\033[0;31m-- Installing Multimedia Apps\033[0m"
 brew cask install vlc qsync-client
 
